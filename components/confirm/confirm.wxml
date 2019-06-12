@@ -1,0 +1,11 @@
+<!--componets/confirm/confirm.wxml-->
+<view class="mask" wx:if="{{visible}}">
+  <view class="modal">
+    <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+    <textarea class="111" placeholder="{{placeholder}}" rows="1"></textarea>
+    <view class="btn_group clearfix">
+      <text class="sure">{{(sureTxt && sureTxt.length>0)||'确定'}}</text>
+      <text class="cancel">{{(cancelTxt && cancelTxt.length>0)||'取消'}}</text>
+    </view>
+  </view>
+</view>

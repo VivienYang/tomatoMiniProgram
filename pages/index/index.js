@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    createTaskVisible: true,
   },
   onLoad: function () {
     
