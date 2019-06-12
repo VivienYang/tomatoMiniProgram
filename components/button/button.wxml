@@ -1,0 +1,2 @@
+<!--components/button/button.wxml-->
+<view class="t_button {{size}} {{btnType}}">{{text}}</view>

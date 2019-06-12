@@ -1,0 +1,25 @@
+/* components/button/button.wxss */
+.t_button{
+  width: 540rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin: 10px auto;
+  border-radius: 10rpx;
+  text-align: center;
+  border: 3rpx solid#F6705A;
+  background: #ffffff;
+  color:#F6705A;
+}
+.t_button.white{
+  border: 3px solid#F6705A;
+  background: #ffffff;
+  color:#F6705A;
+}
+.t_button.change{
+  border:0rpx;
+  background: linear-gradient(#FE996F, #F6705A);
+  color:#ffffff;
+}
+.t_button.small{
+  width: 360rpx;
+}
