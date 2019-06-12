@@ -2,4 +2,6 @@
 <view class="container">
   <t-btn text="开始" size="" btnType="white"></t-btn>
   <t-btn text="取消" size="small" btnType="change"></t-btn>
+  <t-clock text="已完成"></t-clock>
+  <t-clock text="20:13" size="large"></t-clock>
 </view>

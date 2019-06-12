@@ -1,0 +1,15 @@
+/* components/clock/clock.wxss */
+.myClock{
+  width: 333rpx;
+  height: 331rpx;
+  background: url('http://hh-oss-picture.miyapay.com/box/d526b698470d6126056eab965be90e1e.png') no-repeat center center;
+  background-size: 100% 100%;
+  color: #ffffff;
+  font-size: 26rpx;
+  text-align: center;
+  line-height: 331rpx;
+}
+.myClock.large{
+  font-size:56rpx;
+  letter-spacing: 10rpx;
+}
