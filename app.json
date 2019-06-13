@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/myComp/myComp",
     "pages/login/login",
     "pages/logs/logs",
     "pages/personal/personal",
@@ -24,10 +25,10 @@
         "text": "专注"
       },
       {
-        "pagePath": "pages/dataStatistics/dataStatistics",
+        "pagePath": "pages/myComp/myComp",
         "iconPath": "images/total.png",
         "selectedIconPath": "images/total-active.png",
-        "text": "数据统计"
+        "text": "我的组件"
       },
       {
         "pagePath": "pages/personal/personal",

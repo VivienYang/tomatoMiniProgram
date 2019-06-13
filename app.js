@@ -34,6 +34,11 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    host: 'https://gp-server.hunger-valley.com',  //照抄
+    app_id: "",//你的小程序 app_id
+    app_secret: "",//你的小程序 app_secret
+    t_app_id: "",//调用咱们api的 app_id
+    t_app_secret: ""//调用咱们api的app_secret
   }
 })

@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container" style="background:pink">
+  <view>button组件</view>
+  <t-btn text="white" size="" btnType="white"></t-btn>
+  <t-btn text="change" size="" btnType="change"></t-btn>
+  <t-btn text="white+small" size="small" btnType="white"></t-btn>
+  <t-btn text="change+small" size="small" btnType="change"></t-btn>
+  <view>clock组件</view>
+  <t-clock text="已完成"></t-clock>
+  <t-clock text="20:13" size="large"></t-clock>
+  <view>confirm组件</view>
+  <t-btn text="打开confirm组件" size="small" btnType="white" bindtap="showCreateModal"></t-btn>
+  <t-confirm placeholder="我完成了什么xxxx" visible="{{createModalVisible}}"
+  bindcancel="hideCreateModal" bindconfirm="confirmCreateTask"></t-confirm>
+</view>
