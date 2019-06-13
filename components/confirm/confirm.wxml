@@ -3,10 +3,10 @@
   <view class="modal">
     <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
     <textarea class="111" placeholder="{{placeholder}}" auto-height='true' 
-    value="{{inputValue}}" bindinput="inputChange"/>
+    value="{{inputValue}}" bindinput="_inputChange"/>
     <view class="btn_group clearfix">
-      <text class="sure" bindtap="confirm">{{(sureTxt && sureTxt.length>0)||'确定'}}</text>
-      <text class="cancel" bindtap="cancel">{{(cancelTxt && cancelTxt.length>0)||'取消'}}</text>
+      <text class="sure" bindtap="confirm">{{sureTxt}}</text>
+      <text class="cancel" bindtap="cancel" wx:if="{{showCancel}}">{{cancelTxt}}</text>
     </view>
   </view>
 </view>

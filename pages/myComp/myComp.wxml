@@ -10,6 +10,6 @@
   <t-clock text="20:13" size="large"></t-clock>
   <view>confirm组件</view>
   <t-btn text="打开confirm组件" size="small" btnType="white" bindtap="showCreateModal"></t-btn>
-  <t-confirm placeholder="我完成了什么xxxx" visible="{{createModalVisible}}"
-  bindcancel="hideCreateModal" bindconfirm="confirmCreateTask"></t-confirm>
+  <t-confirm placeholder="我完成了什么xxxx" visible="{{createModalVisible}}" showCancel="{{showCancel}}"
+  bindcancel="hideCreateModal" bindconfirm="confirmCreateTask" cancelTxt="关闭"></t-confirm>
 </view>

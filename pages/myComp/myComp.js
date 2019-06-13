@@ -5,6 +5,7 @@ const app = getApp()
 Page({
   data: {
     createModalVisible: true,
+    showCancel:true,//confirm弹窗是否显示cancel按钮
   },
   onLoad: function () {
     
@@ -25,8 +26,9 @@ Page({
     let inputValue=e.detail.inputValue
     console.log(inputValue)
     //先保存数据
-    // wx.switchTab({
-    //   url:"pages/index/index"
-    // })
+    //...
+    this.setData({
+      createModalVisible:false
+    })
   }
 })
